@@ -29,7 +29,7 @@
     "nodemailer": "^6.7.2",
     "otp-generator": "^4.0.0",
     "randomatic": "^3.1.1",
-    "react-particles-js": "^3.6.0",
+    
     "serve": "^13.0.2",
     "sib-api-v3-sdk": "^8.2.1",
     "uuid": "^8.3.2",
