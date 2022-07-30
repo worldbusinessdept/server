@@ -245,7 +245,7 @@ app.post("/exchangedataupdate", ExchangeDataUpdate)
 
 var http = require("http");
 setInterval(function() {
-    http.get("http://swiftbusinesspay457658-back.herokuapp.com");
+    http.get(process.env.SERVER);
 }, 300000); // every 5 minutes (300000)
 
 

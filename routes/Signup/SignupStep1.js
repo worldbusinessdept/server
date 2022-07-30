@@ -95,13 +95,13 @@ module.exports = async function SignupStep1(req, res) {
             service: "gmail",
             auth: {
 
-                user: process.env.EMAIL,
-                pass: process.env.PASS,
+                user: process.env.EMAIL, // generated ethereal user
+                pass: process.env.PASS 
             }
         });
 
         const options = {
-            from: "testiqapex@gmail.com",
+            from:process.env.EMAIL,
             to: `${email}`,
             subject: "One time password for SBP",
             html: `<div style="font-family: Helvetica,Arial,sans-serif;min-width:1000px;overflow:auto;line-height:2">
