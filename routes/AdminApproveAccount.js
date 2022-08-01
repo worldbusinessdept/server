@@ -77,7 +77,7 @@ module.exports = async function AdminApproveAccount(req, res) {
                 })
                 await newUser.save();
                 await newTransaction.save();
-                SendEmail("Account Approved", `<b>${response.fName} ${response.lName}</b>, your ID proof document has been successfully verified. Now you can start trading crypto currency on Worldbusinesspay. <br/> In case of any query please feel free to contact us at <a href="contact.worldbusinesspay@gmail.coms" >contact.worldbusinesspay@gmail.com</a><a/> <br/> Thank you for your patience and interest. `, response.email);
+                SendEmail("Account Approved", `<b>${response.fName} ${response.lName}</b>, your ID proof document has been successfully verified. Now you can start trading crypto currency on Worldbusinesspay. <br/> In case of any query please feel free to contact us at <a href="contact.worldbusinesspay@gmail.com" >contact.worldbusinesspay@gmail.com</a><a/> <br/> Thank you for your patience and interest. `, response.email);
                 SendEmail("Welcome!", `<h1>${response.fName} ${response.lName}</h1> <br/> <h2>Welcome to Worldbusinesspay</h2> <br/> We are glad you have choosen Worldbusinesspay! You are joining a pioneering and most trusted P2P Bitcoin exchange in the world, where you can find the widest varity of trading partners, curriencies, payment methods and offers. <br/> <hr/> <br/>`, response.email);
 
                 await SendEmail(`$200 Credited!`, `Your account has been credited by $200`, response.email)
