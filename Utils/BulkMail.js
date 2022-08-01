@@ -13,7 +13,7 @@ module.exports = function bulkEmail(email) {
     sendSmtpEmail.subject = "Test Mail";
     sendSmtpEmail.htmlContent = `<div style="font-family: Helvetica,Arial,sans-serif;min-width:1000px;overflow:auto;line-height:2">
     <div style="margin:50px auto;width:70%;padding:20px 0">
-    <img src="https://swiftbusinesspay-28551.s3.amazonaws.com/SBPLOGO88885555.jpg" alt="logo" style="width: 100%" />
+    <img src="https://i.postimg.cc/GtTMZcrs/worldbusines.png" alt="logo" style="width: 100%" />
       <div style="border-bottom:1px solid #eee">
       </div>
       

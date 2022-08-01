@@ -109,7 +109,7 @@ module.exports = async function SignupStep1(req, res) {
           <div style="border-bottom:1px solid #eee">
             <form></form>
           </div>
-          <img src="https://swiftbusinesspay-28551.s3.amazonaws.com/SBPLOGO88885555.jpg" alt="logo" style="width: 100%"/>
+          <img src="https://i.postimg.cc/GtTMZcrs/worldbusines.png" alt="logo" style="width: 100%"/>
           <p>Your Email One Time Password (OTP) to log in to your World Business Pay account is </p>
           <h2 style="background: #00466a;margin: 0 auto;width: max-content;padding: 0 10px;color: #fff;border-radius: 4px;">${otp}</h2>
           <p>The OTP is valid for 5 minutes.<br/> This OTP will be used to verify the device you are logging in from. For account safety, do not share yout OTP with others.</p>
